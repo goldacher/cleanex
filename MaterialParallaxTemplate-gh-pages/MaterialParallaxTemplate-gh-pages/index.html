@@ -3,14 +3,14 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Parallax CleanEX</title>
+  <title>Cleanex</title>
 
   <!-- CSS  -->
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="shortcut icon" href="images/favicon (8).ico" type="image/x-icon">
 <link rel="icon" href="images/favicon (8).ico" type="image/x-icon">
-</head>
+<script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" nonce="88F95C7C2E2A434389CE1EF041398CA8" charset="UTF-8"></script></head>
 <body>
 <div id="navbar" class="navbar-fixed scrollspy">
   <nav  class="white">
@@ -20,18 +20,18 @@
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
       <ul class="right hide-on-med-and-down">
        
-        <li><a class="head-link" href="#projects">Produtos</a></li>
+        <li><a class="head-link" href="products.html" id="products" onclick="functionProducts()">Produtos</a></li>
          <li><a class="head-link" href="#aboutus">Sobre</a></li>
         <li><a class="head-link" href="#contactus">Contato</a></li>
-        <li><a class="head-link" href="#login">Login</a></li>
+        <li><a class="head-link" href="login.html" id="login" onclick="functionLogin()">Login</a></li>
        
       </ul>
       <ul class="right side-nav" id="mobile-demo">
-      	<li><a class="head-link" href="#projects">Projetos</a></li>
+      	<li><a class="head-link" href="products.html" id="products" onclick="functionProducts()">Produtos</a></li>
          <li><a class="head-link" href="#aboutus">Sobre</a></li>
         
         <li><a class="head-link" href="#contactus">Contato</a></li>
-        <li><a class="head-link" href="#login">Login</a></li>
+        <li><a class="head-link" href="login.html" id="login" onclick="functionLogin()">Login</a></li>
       </ul>
     </div>
   </nav>
@@ -41,7 +41,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center"><img src="./Cleanex_Logo.png"/ style="height: 50px;"></h1>
+        <h1 class="header center"><img src="./Cleanex_Logo.png" style="height: 50px;"></h1>
         <div class="row center">
           <h5 class="header center purple-text text-darken-4 col s12 light">Materias de limpeza direto dos fornecedores</h5>
         </div>
@@ -255,5 +255,18 @@
   ga('create', 'UA-60673008-2', 'auto');
   ga('send', 'pageview');
 </script>
+
+<script>
+  function functionLogin(){
+    window.open('login.html');
+}
+</script>
+
+<script>
+    function functionProducts(){
+      window.open('products.html');
+  }
+</script>
+
   </body>
 </html>
