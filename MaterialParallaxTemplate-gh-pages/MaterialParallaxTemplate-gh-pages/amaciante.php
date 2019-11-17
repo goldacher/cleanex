@@ -31,7 +31,7 @@
                             tecidos e garante a maciez.</p>
                     </div>
                     <div class="card-action">
-                        <a href="amaciante.php" style="color: purple">Comprar</a>
+                        <a href="amaciante.php" style="color: purple">+ Carinho</a>
                     </div>
                 </div>
             </div>

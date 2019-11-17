@@ -30,7 +30,7 @@
             <p>A água sanitária Qboa é sinônimo de categoria e reconhecida por milhares de brasileiros .</p>
           </div>
           <div class="card-action">
-            <a href="aguasanitaria.php" onclick="functionLogin()" style="color: purple">Comprar</a>
+            <a href="aguasanitaria.php" onclick="functionLogin()" style="color: purple">+ Carinho</a>
           </div>
         </div>
       </div>

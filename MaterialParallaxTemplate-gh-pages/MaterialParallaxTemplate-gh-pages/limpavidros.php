@@ -30,7 +30,7 @@
             <p>Resultados Imbatíveis na Remoção das Sujeiras Difíceis. Alto Poder de Limpeza.</p>
           </div>
           <div class="card-action">
-            <a href="aguasanitaria.php" onclick="functionLogin()" style="color: purple">Comprar</a>
+            <a href="aguasanitaria.php" onclick="functionLogin()" style="color: purple">+ Carinho</a>
           </div>
         </div>
       </div>

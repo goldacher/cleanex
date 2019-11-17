@@ -19,6 +19,8 @@
   <!--   Cabeçalho   -->
   <?php include("inc_header.php"); ?>
 
+  <!--   Cabeçalho   -->
+  <?php include("inc_categoria.php"); ?>
 
 
   <div class="container">
@@ -70,7 +72,7 @@
             <p>A água sanitária Qboa é sinônimo de categoria e reconhecida por milhares de brasileiros .</p>
           </div>
           <div class="card-action">
-            <a href="aguasanitaria.php" onclick="functionLogin()" style="color: purple">Comprar</a>
+            <a href="aguasanitaria.php" onclick="functionLogin()" style="color: purple">+ Informações</a>
           </div>
         </div>
       </div>
@@ -86,7 +88,7 @@
               tecidos e garante a maciez.</p>
           </div>
           <div class="card-action">
-            <a href="amaciante.php" style="color: purple">Comprar</a>
+            <a href="amaciante.php" style="color: purple">+ Informações</a>
           </div>
         </div>
       </div>
@@ -101,7 +103,7 @@
             <p> O desinfetante Casa & Perfume tem uma fragrancia agradavel de sensualidade</p>
           </div>
           <div class="card-action">
-            <a href="desinfetante.php" style="color: purple">Comprar</a>
+            <a href="desinfetante.php" style="color: purple">+ Informações</a>
           </div>
         </div>
       </div>
@@ -116,7 +118,7 @@
             <p>Resultados Imbatíveis na Remoção das Sujeiras Difíceis. Alto Poder de Limpeza.</p>
           </div>
           <div class="card-action">
-            <a href="limpavidros.php" style="color: purple">Comprar</a>
+            <a href="limpavidros.php" style="color: purple">+ Informações</a>
           </div>
         </div>
       </div>
@@ -131,7 +133,7 @@
             <p>Mop Giratório FlashLimp Fit MOP5010 com Balde - Cinza/Verde. Perfeito para uso domestico</p>
           </div>
           <div class="card-action">
-            <a href="mop.php" style="color: purple">Comprar</a>
+            <a href="mop.php" style="color: purple">+ Informações</a>
           </div>
         </div>
       </div>
@@ -147,7 +149,7 @@
               Saponáceo Cremoso SAPÓLIO RADIUM Clássico 450ml. </p>
           </div>
           <div class="card-action">
-            <a href="sapolio.php" style="color: purple">Comprar</a>
+            <a href="sapolio.php" style="color: purple">+ Informações</a>
           </div>
         </div>
       </div>

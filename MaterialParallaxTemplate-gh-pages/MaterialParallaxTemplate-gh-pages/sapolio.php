@@ -31,7 +31,7 @@
                             Saponáceo Cremoso SAPÓLIO RADIUM Clássico 450ml. </p>
                     </div>
                     <div class="card-action">
-                        <a href="aguasanitaria.php" onclick="functionLogin()" style="color: purple">Comprar</a>
+                        <a href="aguasanitaria.php" onclick="functionLogin()" style="color: purple">+ Carinho</a>
                     </div>
                 </div>
             </div>

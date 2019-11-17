@@ -29,7 +29,7 @@
             <p> O desinfetante Casa & Perfume tem uma fragrancia agradavel de sensualidade</p>
           </div>
           <div class="card-action">
-            <a href="aguasanitaria.php" onclick="functionLogin()" style="color: purple">Comprar</a>
+            <a href="aguasanitaria.php" onclick="functionLogin()" style="color: purple">+ Carinho</a>
           </div>
         </div>
       </div>
