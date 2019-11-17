@@ -1,98 +1,72 @@
-<html>
+<!DOCTYPE html>
 <html lang="pt-br">
-
+ 
 <head>
+    <meta charset="UTF-8">
+    <title>Sobre</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/customizado.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <style>
-        body {
-            display: flex;
-            min-height: 100vh;
-            flex-direction: column;
-        }
-
-        main {
-            flex: 1 0 auto;
-        }
-
-        body {
-            background: white;
-        }
-
-        .input-field input[type=date]:focus+label,
-        .input-field input[type=text]:focus+label,
-        .input-field input[type=email]:focus+label,
-        .input-field input[type=password]:focus+label {
-            color: #e91e63;
-        }
-
-        .input-field input[type=date]:focus,
-        .input-field input[type=text]:focus,
-        .input-field input[type=email]:focus,
-        .input-field input[type=password]:focus {
-            border-bottom: 2px solid #e91e63;
-            box-shadow: none;
+        article{
+            text-justify: auto;
         }
     </style>
+
 </head>
-
+ 
 <body>
-    <div class="section center container"></div>
-    <main>
-        <div class="center"><a href="index.html"><img class="responsive-img" style="width: 450px; "
-                    src="Logo_Cleanex.png" /></a></div>
-        <div class="section center"></div>
-        <div class="section center"></div>
+ 
+    <header>
+        <nav class="z-depth-0 green">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo">Magrass</a>
+                <a href="index.html" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="servico.html">Emagrecimento Saudável</a></li>
+                    <li><a href="depoimento.html">Depoimentos de Clientes</a></li>
+                    <li><a href="imc.html">Veja o seu IMC</a></li>
+                    <li><a href="sobre.html">Sobre a Magras</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+ 
+    <section>
+        <article>
+        <div class="container">
+            <h2 style="color: green">ESCOLHA SENTIR-SE BEM</h2>
+            <p style="text-align: justify">A Magrass é a maior rede de Emagrecimento Saudável e Estéti
+            ca de Resultado da América Latina. Nos últimos 11 anos já aj
+            udou mais de 2 milhões de pessoas a transformar suas vidas, realizando o sonho de beleza e melhorando a qualidade de vida. O Programa Magrass é científico e propõe Transformação Nutricional Consciente. Inclui exclusivas sessões de Transformação e sessões de Nutrição, além de Estética de Resultado e acompanhamento contínuo. Com resultados comprovados e modelo inteligente de gestão, a Magrass se consagrou como franquia de sucesso e hoje possui a maior rede do segmento, além do maior centro de capacitação de profissionais da América Latina.</p>
+            <p>Endereço: esquina com 4ª avenida, R. 2300, 1100 - Centro, Balneário Camboriú - SC</p>
+            <p>Telefone: (47) 3228-0141</p>
+        </div>
+        </article>
+    </section>
 
-        <div class="container center">
-            <div class="z-depth-1 grey lighten-4 row"
-                style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
-
-                <form class="col s12" method="post">
-                    <div class='row center'>
-                        <div class='col s12'>
-                        </div>
-                    </div>
-
-                    <div class='row center'>
-                        <div class='input-field col s12'>
-                            <input class='validate' type='email' name='email' id='email' />
-                            <label for='email'>E-mail</label>
-                        </div>
-                    </div>
-
-                    <div class='row center'>
-                        <div class='input-field col s12'>
-                            <input class='validate' type='password' name='password' id='password' />
-                            <label for='password'>Senha</label>
-                        </div>
-                        <label style='float: right;'>
-                            <a class='pink-text' href='#!'><b>Esqueceu sua senha?</b></a>
-                        </label>
-                    </div>
-
-                    <br />
-                    <div class='row center'>
-                        <a href="index.html"><button type='submit' name='btn_login'
-                                class='col s12 btn btn-large waves-effect indigo' id="login"
-                                onclick="functionTeste()">Login</button></a>
-                    </div>
-                </form>
+    <br>
+ 
+    <footer class="page-footer green">
+        <div class="footer-copyright">
+            <div class="container">
+                <a class="grey-text text-lighten-4 left" href="contato.html">Avenida do Estado, 361, Praia dos Amores
+                    Balneário Camboriú - SC CEP: 88331-490<br> Copyright © 2018 Magrass</a>
             </div>
         </div>
-        <div class="center"><a href="create_acount.html">Cadastrar-se</a></div>
-        <div class="section center"></div>
-        <div class="section center"></div>
-    </main>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+    </footer>
+ 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+ 
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+ 
+    </script>
 </body>
-<script>
-    function functionTeste() {
-        window.open('index.html');
-    }
-</script>
-
+ 
 </html>

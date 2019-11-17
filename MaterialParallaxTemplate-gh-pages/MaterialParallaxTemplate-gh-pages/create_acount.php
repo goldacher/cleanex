@@ -15,30 +15,9 @@
 </head>
 
 <body>
-  <div id="navbar" class="navbar-fixed scrollspy">
-    <nav class="white">
-      <div class="nav-wrapper container">
-        <div class="container"> <a href="index.html" class="brand-logo"><img src="./Cleanex_Logo.png" /></a></div>
+  <!--   Cabeçalho   -->
+  <?php include("inc_header.php"); ?>
 
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-        <ul class="right hide-on-med-and-down">
-
-          <li><a class="head-link" href="products.html" id="products" onclick="functionProducts()">Produtos</a></li>
-          <li><a class="head-link" href="#aboutus">Sobre</a></li>
-          <li><a class="head-link" href="#contactus">Contato</a></li>
-          <li><a class="head-link" href="login.html" id="login" onclick="functionLogin()">Login</a></li>
-
-        </ul>
-        <ul class="right side-nav" id="mobile-demo">
-          <li><a class="head-link" href="products.html" id="products" onclick="functionProducts()">Produtos</a></li>
-          <li><a class="head-link" href="#aboutus">Sobre</a></li>
-
-          <li><a class="head-link" href="#contactus">Contato</a></li>
-          <li><a class="head-link" href="login.html" id="login" onclick="functionLogin()">Login</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
   <br>
   <div class="container">
     <label for="Nome">Nome:</label>
@@ -60,7 +39,6 @@
 
     <!-- Adicionando Javascript -->
     <script type="text/javascript">
-
       function limpa_formulário_cep() {
         //Limpa valores do formulário de cep.
         document.getElementById('rua').value = ("");
@@ -128,53 +106,10 @@
           limpa_formulário_cep();
         }
       };
-
     </script>
+
     <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
-    <script>
-      $(document).ready(function () {
-        $('.materialboxed').materialbox();
-        $('.button-collapse').sideNav();
-
-      });
-    </script>
-    <script>
-      $('.head-link').click(function (e) {
-        e.preventDefault();
-
-        var goto = $(this).attr('href');
-
-        $('html, body').animate({
-          scrollTop: $(goto).offset().top
-        }, 800);
-      });
-
-    </script>
-
-    <script>
-      (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-          (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-      ga('create', 'UA-60673008-2', 'auto');
-      ga('send', 'pageview');
-    </script>
-
-    <script>
-      function functionLogin() {
-        window.open('login.html');
-      }
-    </script>
-    <script>
-      function functionProducts() {
-        window.open('products.html');
-      }
-    </script>
+    <?php include("inc_scripts.php"); ?>
 
     </head>
 
@@ -182,8 +117,7 @@
       <!-- Inicio do formulario -->
       <form method="get" action=".">
         <label>Cep:
-          <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
-            onblur="pesquisacep(this.value);" /></label><br />
+          <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" onblur="pesquisacep(this.value);" /></label><br />
         <label>Rua:
           <input name="rua" type="text" id="rua" size="60" /></label><br />
         <label>Bairro:
@@ -197,31 +131,9 @@
       </form>
   </div>
 
-  <footer class="page-footer purple lighten-1">
-    <div class="container">
-      <div class="row">
-        <div class="col s12 m8 l6">
-          <h6 class="white-text">Acompanhe as novidades nas redes sociais!</h6>
-          <div class="col s12 m4">
-            <ul class="share-buttons">
-              <li><a href="https://www.facebook.com/cleanex/sharer.php?u=&t=" target="_blank"
-                  title="Share on Facebook"><img src="images/flat_web_icon_set/inverted/Facebook.png"></a></li>
-              <li><a href="https://twitter.com/intent/tweet?source=&text=:%20" target="_blank" title="Tweet"><img
-                    src="images/flat_web_icon_set/inverted/Twitter.png"></a></li>
-              <li><a href="https://plus.google.com/share?url=" target="_blank" title="Share on Google+"><img
-                    src="images/flat_web_icon_set/inverted/GooglePlus.png"></a></li>
-            </ul>
-          </div>
-        </div>
 
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        Copyright © Cleanex.com.br
-      </div>
-    </div>
-  </footer>
+  <!--  Rodape-->
+  <?php include("inc_rodape.php"); ?>
 
 </body>
 
