@@ -2,13 +2,18 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
+
 <script>
     $(document).ready(function() {
         $('.materialboxed').materialbox();
         $('.button-collapse').sideNav();
+        $('.dropdown-trigger').dropdown({
+            hover = false
+        });
 
     });
 </script>
+
 <script>
     $('.head-link').click(function(e) {
         e.preventDefault();
@@ -64,5 +69,11 @@
 <script>
     function functionLogin() {
         window.open('login.php');
+    }
+</script>
+
+<script>
+    function functionCarrinho() {
+        window.open('carrinho.php');
     }
 </script>

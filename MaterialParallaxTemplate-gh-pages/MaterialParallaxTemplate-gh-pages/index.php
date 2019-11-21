@@ -19,13 +19,9 @@
   <!--   Cabeçalho   -->
   <?php include("inc_header.php"); ?>
 
-  <!--   Cabeçalho   -->
-  <?php include("inc_categoria.php"); ?>
-
 
   <div class="container">
     <div class="section">
-
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
@@ -65,7 +61,7 @@
         <div class="card">
           <div class="card-image">
             <img src="images/qbo.jpg">
-            <span class="card-title">Qboa</span>
+            <span class="card-title" style="color: purple;">Qboa</span>
           </div>
           <div class="card-content">
             <h5>R$ 2,00</h5>
@@ -80,7 +76,7 @@
         <div class="card">
           <div class="card-image">
             <img src="images/amaciante.jpg">
-            <span class="card-title">Amaciante</span>
+            <span class="card-title" style="color: purple;">Amaciante</span>
           </div>
           <div class="card-content">
             <h5>R$ 15,00</h5>
@@ -96,7 +92,7 @@
         <div class="card">
           <div class="card-image">
             <img src="images/amaciante.jpg">
-            <span class="card-title">Desinfetante</span>
+            <span class="card-title" style="color: purple;">Desinfetante</span>
           </div>
           <div class="card-content">
             <h5>R$ 18,00</h5>
@@ -111,7 +107,7 @@
         <div class="card">
           <div class="card-image">
             <img src="images/limavidros.png">
-            <span class="card-title">Limpa Vidros</span>
+            <span class="card-title" style="color: purple;">Limpa Vidros</span>
           </div>
           <div class="card-content">
             <h5>R$ 12,50</h5>
@@ -126,7 +122,7 @@
         <div class="card">
           <div class="card-image">
             <img src="images/mop.jpeg">
-            <span class="card-title">Mop</span>
+            <span class="card-title" style="color: purple;">Mop</span>
           </div>
           <div class="card-content">
             <h5>R$ 45,00</h5>
@@ -141,7 +137,7 @@
         <div class="card">
           <div class="card-image">
             <img src="images/sapolio.png">
-            <span class="card-title">Sapolio</span>
+            <span class="card-title" style="color: purple;">Sapolio</span>
           </div>
           <div class="card-content">
             <h5>R$ 7,99</h5>
